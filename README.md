@@ -33,17 +33,24 @@
 ```bash
 git clone https://github.com/yourusername/design-analysis-platform.git
 cd design-analysis-platform
+```
 
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/MacOS
 venv\Scripts\activate     # Windows
-
+```
+```bash
 pip install -r requirements.txt
 cp .env.example .env
+```
 
 Edit .env file:
+```bash
 GEMINI_API_KEY=your_actual_api_key_here
+```
 
-### Run the App
 Running the Application
+```bash
 streamlit run app/main.py
+```
